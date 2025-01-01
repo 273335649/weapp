@@ -106,9 +106,9 @@ class Index extends Component<PropsWithChildren> {
         <View><Text>Hello, World2</Text></View>
         <View><Text>录制视频</Text></View>
         <CameraPage />
-        {/* <Button className='startRecord' onClick={() => {
+        <Button className='startRecord' onClick={() => {
           recordVideo();
-        }}>RecordVideo</Button> */}
+        }}>RecordVideo</Button>
       </View>
     )
   }
